@@ -3,9 +3,7 @@ import time
 
 def TimeS ():
     nowTime = datetime.datetime.now()
-    # array = []
-    # a = array.append(nowTime)
-    time.sleep(4)
+    time.sleep(4) # to test timer 
     return nowTime
 
 def EndS (): 
